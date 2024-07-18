@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Job Fair Task</title>
+  <link rel="icon" href="images/7604036.png">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ </head>
+ <body>
+   
+  <div class="container mt-5 text-center">
+    <h2 class="text-white">Customer Transactions</h2>
+    <input type="text" id="search" class="form-control mb-3" placeholder="Search by customer name or transaction amount">
+    <table class="table table-bordered table-hover glass-bg">
+      <thead>
+        <tr>
+          <th>Customer Name</th>
+          <th>Date</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody id="TableBody">
+
+
+
+      </tbody>
+    </table>
+    <canvas id="transactionChart" width="400" height="200"></canvas>
+  </div>
+
+    
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="js/main.js"></script>
+ </body>
+</html>

@@ -1,0 +1,34 @@
+h1, h2, h3, h4, h5, h6 , th{
+   font-family: "Blinker", sans-serif;
+   font-weight: 600;
+}
+td{
+   font-family: "Nerko One", cursive;
+}body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f8f9fa; /* Light background */
+   background-image: url(../images/bg1.jpg);
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+ }
+ .container {
+   max-width: 80%; 
+   margin: 0 auto; 
+ }
+ table , canvas{
+   cursor: pointer; 
+   margin-bottom: 5px;
+   backdrop-filter: blur(8px) saturate(150%) !important;
+   background-color: rgba(255, 255, 255, 0.5) !important; /* Semi-transparent white background */
+ 
+ }
+td , th{
+   background: none !important;
+}
+ tr:hover {
+   background-color: #f0f0f0; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ #transactionChart {
+   margin-top: 20px;
+ }
